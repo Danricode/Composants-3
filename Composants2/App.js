@@ -1,4 +1,5 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import {Text, View, Image } from 'react-native';
+import { styles } from "./Style.js";
 
 export default function App() {
   return (
@@ -12,21 +13,3 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    display:"flex",
-    flexDirection:"row",
-    justifyContent:"center",
-      },
-  photo: {
-flex:3,
-width:50,
-height:300,
-marginTop:200,
-  },
-  text: {
-    marginTop:300,
-    marginLeft:10,
-    width:100,
-      },
-});
